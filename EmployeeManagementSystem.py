@@ -18,7 +18,7 @@ class Employee:
      def look_up_an_employee(self,check_value):
         self.check_value=check_value
         if check_value in self.database:
-            print(f"\nThe Employee Details:  \nEmployee ID: {self.database[id_no]["Id"]}, Name: {self.database[id_no]["Name"]}, Job Title: {self.database[id_no]["Job"]}, Department: {self.database[id_no]["Department"]}")
+             print("\nThe Employee Details:\nEmployee ID:",self.database[id_no]["Id"], "Name:",self.database[id_no]["Name"], "Job Title:",self.database[id_no]["Job"], "Department:",self.database[id_no]["Department"])
         else:
             print("The Employee Not Found")
 
